@@ -2,8 +2,16 @@
 window.addEventListener("load", function(){
 
     // -------------------------------------------------------------
-    document.title = "Loadet";
-    console.log("Yes we can!");
+    // Page Loader
+    __id('page_loader_bol').style.display = 'none'; 
+    __id('page_loader_box').style.display = 'none'; 
+    __id('center_box').style.display = 'block';
+    //document.body.style.backgroundImage = 'none';
+    // -------------------------------------------------------------
+
+
+
+
     // -------------------------------------------------------------
 
 });
